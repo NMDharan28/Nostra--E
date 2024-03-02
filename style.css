@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: ivory
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: darkgray
+}
+
+
+.navbar-links{
+    display: flex;
+    column-gap: 25px;
+    
+
+}
+
+.navbar-links a{
+    text-decoration: none;
+    color: rgb(12, 12, 90);
+}
+
+.navbar-links a:hover{
+    text-decoration: underline;
+    color: ivory;
+
+}
+
+.navbar-menu{
+    display: none;
+    
+}
+
+
+/*side navbar */
+.side-navbar{
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    position:fixed; /* fixed at place when user scrolls */
+    top: 0;
+    left: 0;
+    padding:20px;
+    color: white;
+    transition: 2s;
+    left: -60%;
+
+}
+
+
+
+.sidenavbar-links a{
+    color: white;
+    text-decoration: none;
+   
+}
+
+.sidenavbar-links a:hover{
+    text-decoration: underline;
+}
+
+.header{
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+}
+
+.header img{
+    border-radius: 20px;  
+   box-shadow: 5px 5px rgb(126, 126, 126);
+}
+
+.header-btn{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+.header-btn:hover{
+    background-color: blue;
+    color: white;
+}
+.header-btn a{
+    color: white;
+    text-decoration: none;
+
+}
+/*service section */
+
+.service{
+    padding: 20px;
+}
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+.service-container-2 div{
+    background-color: rgb(218, 217, 216);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+/*New arrival section */
+
+.new-arrival{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%; 
+}
+
+.new-arrival-container img{
+   border-radius: 20px;  
+   box-shadow: 5px 5px rgb(126, 126, 126);
+}
+.new-arrival-btn{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    color: black;
+    position: absolute;
+    top: 40%;
+    left:20%;
+    border-radius: 20px;
+}
+.new-arrival-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+/*newsletter*/
+
+.news{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+.news input{
+    padding: 10px;
+    width: 80vw;
+    margin-top: 10px;
+    border: solid black 4px;
+    
+    border-radius: 10px;
+    
+}
+.news button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer{
+    margin-top: 20px;
+    padding: 40px;
+    background-color: black;
+    color: white;
+}
+
+/*collection page*/
+
+.collection-section{
+    margin-top: 10px;
+}
+
+.collection-search{
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid black 5px;
+    border-radius: 20px;
+    align-items: center;
+    margin: auto;
+}
+
+.collection-search input{
+    border: none;
+    background-color: transparent;
+    width: 100% ;
+}
+
+.collection-search input:focus{
+    outline: none;
+    
+}
+
+.collections{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+   
+}
+
+.products{
+    flex-basis: 20%;  /*for align 8x8 in correct format*/
+    text-align: center;
+}
+.products img{
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(115, 121, 122);
+}
+
+/*Contact section */
+.Contact-container{
+    text-align: center;
+    justify-content: center;
+    height: 80vh; /* This ensures the container takes up the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    padding-left: 40px;
+    
+}
+.Contact{
+    margin-bottom: 15px;
+}
+.Name,.Email{
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.Message{
+    width: 80%;
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.submit-button{
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.submit-button:hover{
+    background-color: rgb(3, 172, 71);
+    color: white;
+}
+
+.socialMedia{
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    
+}
+
+
+.LinkedIn{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    border-radius: 40px;
+    background-color: rgb(10, 102, 194);
+    
+}
+.LinkedIn a, .Instagram a{
+    text-decoration: none;
+    color: white;
+}
+    
+.Instagram{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    text-decoration: none;
+    background-color: #C13584;
+    
+}
+
+.developer-section{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.developer-section p{
+    margin-top: 30px;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width:600px){
+    .navbar-menu{
+        display:block;
+    }
+
+    .navbar-links{
+        display: none;
+    }
+
+    .header-img{
+        display: none;
+    }
+    .service-container-1{
+        display: none;
+    }
+    .service-container-2{
+        flex-direction: column;
+    }
+    
+    /*social media content in contact list*/
+    .socialMedia{
+        right: 10%;
+
+    }
+}
