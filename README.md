@@ -19,9 +19,13 @@ Responsive Design: The website is optimized for all device sizes, providing a sm
 **Technologies Used:**
 
 HTML5 for structured content.
+
 CSS3 for modern styling and layout.
+
 JavaScript for interactivity and functionality.
+
 Bootstrap for a responsive design.
+
 Formspree for handling user feedback through emails.
 
 **Setup Instructions:**
@@ -36,5 +40,7 @@ Alternatively, you can access the website directly via the host link.
 **Future Enhancements:**
 
 Integration of a back-end for real-time order processing.
+
 Advanced product filtering options and recommendation systems.
+
 Enhanced security for user data and payment integration.
