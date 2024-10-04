@@ -1,5 +1,6 @@
 **Nostra E-Commerce Website**
-Description:
+
+**Description:**
 
 Nostra is a fully responsive e-commerce website built to provide users with an intuitive shopping experience.
 The platform offers a range of products, an easy-to-navigate interface, and seamless interactions, making it convenient for users to browse, add items to their cart, and place orders.
